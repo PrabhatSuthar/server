@@ -8,6 +8,6 @@ io.on('connection', socket => {
   })
 })
 
-http.listen(4000, function() {
+http.listen('https://arcane-reef-52759.herokuapp.com:4000/', function() {
   console.log('listening on port 4000')
 })
